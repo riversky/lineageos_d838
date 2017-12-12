@@ -8,24 +8,6 @@ copy ${PATH_TO}/d838.xml .repo/local_manifests/
 
 repo sync
 
-#apply patches
-
-copy ${PATH_TO}/framework_av.patch frameworks/av/
-
-cd frameworks/av/
-
-git apply framework_av.patch
-
-cd -
-
-copy ${PATH_TO}/framework_native.patch frameworks/native/
-
-cd frameworks/native/
-
-git apply framework_native.patch
-
-cd -
-
 #build
 
 . build/envsetup.sh
