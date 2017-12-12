@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="rs-github"
+    fetch="https://github.com/"
+    revision="cm-14.1" />
+
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" />
+  <project name="riversky/android_device_lge_d838" path="device/lge/d838" remote="rs-github" />
+  <project name="riversky/android_device_lge_b1w-common" path="device/lge/b1w-common" remote="rs-github" />
+  <project name="riversky/proprietary_vendor_lge_b1w" path="vendor/lge" remote="rs-github" />
+  <project name="riversky/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="rs-github" />
+  <project name="riversky/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="rs-github" />
+</manifest>
