@@ -1,4 +1,4 @@
-#download source
+# download source
 
 repo init -u git://github.com/LineageOS/android.git -b cm-14.1
 
@@ -8,7 +8,7 @@ copy ${PATH_TO}/d838.xml .repo/local_manifests/
 
 repo sync
 
-#build
+# build
 
 . build/envsetup.sh
 
